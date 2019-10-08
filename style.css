@@ -1,0 +1,66 @@
+body {
+
+	font-family: 'Roboto', sans-serif;
+	background : white;
+	font-size: 16px;
+	font-weight: 100;
+
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #49beb7;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2f416d;
+}
+
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	color: blue;
+}
+
+div{
+	margin: 30px;
+	padding : 30px;
+	border-radius : 4px;
+	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+}
+li{
+	color: #2f416d;
+}
+
+#img-round{
+	border-radius: 50%;
+}
+
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.card-white{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 15px 35px rgba(0,0,0,.1);
+	width: 700px; /* set the width of your container */
+  	margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
